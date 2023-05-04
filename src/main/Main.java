@@ -1,4 +1,4 @@
-package src;
+package main;
 
 /**
  * 测试主类
