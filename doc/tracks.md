@@ -44,5 +44,3 @@ volatile
   - -> ScheduledExecutorService(延迟或定时)
       ->ScheduledThreadPoolExecuto extends ThreadPoolExecutor
 - 常用配置练习
-
-test
