@@ -13,9 +13,12 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {34, 123, 1, 34, 23, 77};
-        Sorter sorter = new SortImpl();
-        sorter.selectionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        int a;
+        try{
+            a = 1/0;
+        }catch (Exception e){
+            throw new RuntimeException("aa/0");
+        }
+        System.out.println(a);
     }
 }
