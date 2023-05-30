@@ -5,7 +5,7 @@ import base.juc.ThreadPoolDemo;
 /**
  * 测试类
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/5/8
  */
 public class Test {

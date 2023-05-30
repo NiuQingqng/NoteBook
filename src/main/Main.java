@@ -1,9 +1,6 @@
 package main;
 
-import sort.Sorter;
-import sort.impl.SortImpl;
-
-import java.util.Arrays;
+import java.util.function.Function;
 
 /**
  * 测试主类
@@ -13,12 +10,15 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) {
-        int a;
-        try{
-            a = 1/0;
-        }catch (Exception e){
-            throw new RuntimeException("aa/0");
-        }
-        System.out.println(a);
+       add(1, 1, System.out::println);
+    }
+
+    interface ResponseCallback{
+        void processResponse(int c);
+    }
+
+    public static void add(int a, int b, ResponseCallback f) {
+        int c = a + b;
+        f.processResponse(c);
     }
 }

@@ -6,7 +6,7 @@ import java.util.concurrent.*;
  * 生成一个线程池
  * 三个比较常见的实现池fixedThreadPool、cachedThreadPool、scheduledThreadPool
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/5/8
  */
 public class MyThreadPool extends ThreadPoolExecutor {

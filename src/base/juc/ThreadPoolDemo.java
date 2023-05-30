@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 线程池示例
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/5/8
  */
 public class ThreadPoolDemo {

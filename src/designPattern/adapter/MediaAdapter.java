@@ -3,7 +3,7 @@ package designPattern.adapter;
 /**
  * 适配器
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/5/17
  */
 public class MediaAdapter implements MediaPlayer {

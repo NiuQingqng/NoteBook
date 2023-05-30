@@ -3,7 +3,7 @@ package designPattern.adapter;
 /**
  * 音频播放
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/5/17
  */
 public class AudioPlayer implements MediaPlayer {
