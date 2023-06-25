@@ -3,7 +3,7 @@ package designPattern.proxy;
 /**
  * 代理图片类
  *
- * @author Luyu
+ * @author Niuniu
  * @date 2023/6/1
  */
 public class ProxyImage implements Image {
